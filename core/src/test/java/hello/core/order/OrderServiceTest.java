@@ -12,7 +12,6 @@ public class OrderServiceTest {
     OrderService orderService = new OrderServiceImpl();
     @Test
     void createOrder(){
-        //Long vs long 프리미티브 타입은 null을 넣을 수 없다.
         //given
         long memberId = 1L;
         Member member = new Member(memberId, "memberA", Grade.VIP);
